@@ -1,0 +1,24 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    color: white;
+}
+.center{
+    display: flex;
+    justify-content: center;
+    
+}
+#addTask{
+    background-color: blue;
+    color: white;
+}
+#removeCompleted{
+    background-color: yellow;
+    color: black;
+}
+#removeAll{
+    background-color: red;
+    color: white;
+}
