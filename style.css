@@ -25,10 +25,36 @@ body {
     justify-content: center;
 }
 #entryBox{
-    border-radius: 10px;
+    border-radius: 5px;
     padding: 10px;
 } 
 h1{
     text-shadow: 2px 2px white;
 
 }
+
+.shiny{
+    margin-top: 5px;
+    font-size: 1rem;
+    font-weight: 600;
+    color: lightpink;
+    text-shadow: 1px 1px lightblue;
+    text-align: center;
+    width: 200px;
+    height: 60px;
+    border-radius: 5px;
+    background-image: (linear-gradient(270deg, #8e9ac2, #42579a));
+    background-size: 400% 400%;
+    
+
+    
+    
+
+}
+
+li{
+    color: white;
+    font-size: 30px;
+    
+}
+   
