@@ -27,6 +27,18 @@ addTask.addEventListener('click',function(event){
     li.innerHTML = entryBox.value
     //console.log(li)
     list.appendChild(li);
+    
+    li.addEventListener('click',function(){
+        if(li.style.textDecoration === 'line-through'){
+            li.style.textDecoration = ''
+            li.classList.remove('completed')
+        }else if(li.style.textDecoration === ''){
+            li.style.textDecoration = 'line-through'
+            li.classList.add('completed')
+        }
+
+        
+    })
 
     entryBox.value = ''
 
@@ -39,6 +51,17 @@ removeAll.addEventListener('click',function(event){
         list.removeChild(items[i])
         
     }
+
+})
+
+
+removeTask.addEventListener('click',function(event){
+    event.preventDefault()
+    let toBeDeleted = document.querySelectorAll('.completed')
+
+toBeDeleted.forEach(item =>{
+    item.remove()
+})
 
 })
 

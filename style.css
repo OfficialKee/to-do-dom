@@ -2,8 +2,9 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: black;
+    background-color: grey;
     color: white;
+    
 }
 .center{
     display: flex;
@@ -21,4 +22,12 @@ body{
 #removeAll{
     background-color: red;
     color: white;
+}
+h1{
+    text-shadow: 8px 8px black;
+
+}
+#entryBox{
+    border-radius: 10px;
+    padding: 10px;
 }
