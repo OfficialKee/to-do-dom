@@ -22,11 +22,14 @@ let list = document.querySelector('ol')
 addTask.addEventListener('click',function(event){
     event.preventDefault();
     //console.log('item added');
-
+if(!entryBox.value){
+    alert('Please enter a task!');
+}else{
     let li = document.createElement('li');
     li.innerHTML = entryBox.value
     //console.log(li)
     list.appendChild(li);
+
     
     li.addEventListener('click',function(){
         if(li.style.textDecoration === 'line-through'){
@@ -39,7 +42,7 @@ addTask.addEventListener('click',function(event){
 
         
     })
-
+}
     entryBox.value = ''
 
 })
