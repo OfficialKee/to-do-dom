@@ -1,0 +1,30 @@
+h1,h3{
+    text-align: center;
+}
+#addButton{
+    
+    align-items: right;
+    justify-content: right;
+    text-align: right;
+}
+
+body{
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+#inputBox{
+    border-radius: 10px;
+    padding: 10px 10px 10px 10px;
+    text-align: center;
+    color: lightpink;
+    font-size: 1rem;
+    border: hidden;
+    margin-top: 5rem;
+    
+}
+
