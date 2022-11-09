@@ -19,8 +19,8 @@ let list = document.querySelector('ol');
 
 
 
-addTask.addEventListener('click',function(event){
-    event.preventDefault();
+addTask.addEventListener('click',(e)=>{
+    e.preventDefault();
 
     if(!entryBox.value){
     alert('Please enter a task!');
@@ -30,7 +30,7 @@ addTask.addEventListener('click',function(event){
     list.appendChild(li);
 
     
-    li.addEventListener('click',function(){
+    li.addEventListener('click',()=>{
         if(li.style.textDecoration === 'line-through'){
             li.style.textDecoration = ''
             li.classList.remove('completed')
@@ -46,8 +46,8 @@ addTask.addEventListener('click',function(event){
 
 })
 
-removeAll.addEventListener('click',function(event){
-    event.preventDefault();
+removeAll.addEventListener('click',(e)=>{
+    e.preventDefault();
     let items = document.querySelectorAll('#theList li');
     for (let i = 0; i < items.length; i++) {
         list.removeChild(items[i]);
@@ -57,8 +57,8 @@ removeAll.addEventListener('click',function(event){
 });
 
 
-removeTask.addEventListener('click',function(event){
-    event.preventDefault();
+removeTask.addEventListener('click',(e)=>{
+    e.preventDefault();
     let toBeDeleted = document.querySelectorAll('.completed');
 
 toBeDeleted.forEach(item =>{
