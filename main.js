@@ -66,6 +66,21 @@ toBeDeleted.forEach(item =>{
 })
 
 
+let editButton = document.querySelector('#edit')
+let editDiv = document.querySelector('.editClass')
+
+editButton.addEventListener('click',function(event){
+
+    event.preventDefault;
+
+    let editBox = document.createElement('input')
+    editBox.setAttribute('type','text')
+    fo
+
+
+})
+
+
 
 
 

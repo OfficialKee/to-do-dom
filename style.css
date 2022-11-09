@@ -27,13 +27,17 @@ body {
 #entryBox{
     border-radius: 5px;
     padding: 10px;
+    text-align: center;
+    color: lightpink;
+    font-size: 1rem;
+    border: hidden;
 } 
 h1{
     text-shadow: 2px 2px white;
 
 }
 
-.shiny{
+.shiny {
     margin-top: 5px;
     font-size: 1rem;
     font-weight: 600;
@@ -45,6 +49,9 @@ h1{
     border-radius: 5px;
     background-image: (linear-gradient(270deg, #8e9ac2, #42579a));
     background-size: 400% 400%;
+    box-shadow: 3px 3px lightpink;
+    border: hidden;
+    
     
 
     
@@ -55,6 +62,11 @@ h1{
 li{
     color: white;
     font-size: 30px;
+
+}
+#edit{
+    display: flex;
+    align-items: center;
+    justify-content: center;
     
 }
-   
