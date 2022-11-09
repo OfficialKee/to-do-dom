@@ -25,6 +25,24 @@ body{
     font-size: 1rem;
     border: hidden;
     margin-top: 5rem;
+    background: white;
     
+}
+input{
+    background: rgb(106, 104, 104);
+    color:white;
+    border: hidden;
+    font-size: 1.5rem;
+    border-radius: 5px;
+    width: 30rem;
+    margin: 1rem;
+    text-align: center;
+}
+button{
+    background-color: red;
+    color: white;
+    border-radius: 5px;
+    display: flex;
+
 }
 
